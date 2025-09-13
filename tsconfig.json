@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "strict": true,
+        "skipLibCheck": true,
+        "outDir": "dist",
+        "module": "nodenext",
+        "target": "esnext",
+        "moduleResolution": "nodenext",
+        "types": [
+            "./global.d.ts"
+        ]
+    },
+    "exclude": ["dist"],
+    "include": ["src"]
+}

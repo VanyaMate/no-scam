@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "No scam sale",
+    "version": "0.0.1",
+    "description": "Remove sales from marketplaces",
+    "permissions": [
+        "scripting",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.ozon.ru/*"
+            ],
+            "js": [
+                "src/index.ts"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}
