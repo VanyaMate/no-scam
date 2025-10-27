@@ -11,7 +11,9 @@
         "target": "esnext",
         "moduleResolution": "nodenext",
         "types": [
-            "./global.d.ts"
+            "./global.d.ts",
+            "webextension-polyfill",
+            "chrome"
         ]
     },
     "exclude": ["dist"],

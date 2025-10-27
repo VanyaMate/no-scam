@@ -1,1 +1,0 @@
-import './indes.css';

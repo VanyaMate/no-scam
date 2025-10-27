@@ -3,19 +3,10 @@
     "name": "No scam sale",
     "version": "0.0.1",
     "description": "Remove sales from marketplaces",
+    "action": {
+        "default_popup": "index.html"
+    },
     "permissions": [
-        "scripting",
         "tabs"
-    ],
-    "content_scripts": [
-        {
-            "matches": [
-                "https://www.ozon.ru/*"
-            ],
-            "js": [
-                "src/index.ts"
-            ],
-            "run_at": "document_start"
-        }
     ]
 }
